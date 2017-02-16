@@ -74,9 +74,9 @@ public class Cervantes_3_javaFXintro extends Application{
         gc.setFill(Color.BLACK.brighter());
         gc.setStroke(Color.AQUA.brighter());
         gc.setLineWidth(1);
-        gc.fillPolygon(new double[]{50, 110, 30, 0},
+        gc.fillPolygon(new double[]{0, 80, 30, 0},
                        new double[]{210, 220, 220}, 3);
-         gc.strokePolygon(new double[]{50, 110, 30, 0},
+         gc.strokePolygon(new double[]{0, 80, 30, 0},
                        new double[]{210, 220, 220}, 3);
     }
     
@@ -93,7 +93,7 @@ public class Cervantes_3_javaFXintro extends Application{
         gc.setStroke(Color.FORESTGREEN.brighter());
         gc.setLineWidth(1);
         gc.fillRoundRect(x, y, 60, 30, 0, 0);
-        gc.strokeRoundRect(x, y, 30, 30, 0, 0);
+        gc.strokeRoundRect(x, y, 60, 30, 0, 0);
     }
 
     private void drawShapes(GraphicsContext gc) {
